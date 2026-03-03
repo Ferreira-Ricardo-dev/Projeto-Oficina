@@ -101,5 +101,5 @@ class User():
 if __name__ == '__main__':
     #Teste para a lógica de senha
     print("Hello world")
-    user_1 = User.load_user('rick@123')
+    user_1 = User.load_user('rich21')
     user_1.show_user()
