@@ -19,7 +19,7 @@ class CarWorkshop():
         self.maintence_services = {}
 
     #Aqui está o método para o vendedor
-    def get_service(self, func_name, client_name, client_car, diagnostic, price, description):
+    def get_service(self, func_name, client_name, client_car, price, description, diagnostic="NULL"):
         """Método que adiciona um registro de serviço pendente."""
         if self.type_access != 2:
             print("Acesso não autorizado.")
@@ -113,7 +113,7 @@ class CarWorkshop():
                     print("Usuário não encontrado.")
                     break
         
-    def view_finished_services_log(self):
+    def view_services_log(self):
         """Método para visualizar todos os logs no sistema."""
         try:
             with open('finish_services.txt', 'r', encoding='utf-8') as log_finished_object:

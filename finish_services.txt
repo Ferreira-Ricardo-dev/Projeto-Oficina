@@ -1,2 +1,2 @@
-([2026-03/03 17:19:01] [Repair] [gustavo] [fusion] Diagnostic: falhando a cada 5 metros., Cliente: jonas, Orçamento: 200)
-Finished - 2026-03/03 17:54:30 by sergio
+([2026-03/04 20:02:22] [Manutenção] [Seller Test] [ford] Diagnostic: NULL, Cliente: Ricardo Ferreira, Orçamento: 300)
+Finished - 2026-03/04 20:12:28 by Mechanic
